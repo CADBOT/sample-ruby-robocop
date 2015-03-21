@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - db/**/*
+    - Gemfile
+    - Rakefile
+# Rails models and classes don't have standard
+# ruby style top level comments
+Documentation:
+  Enabled: false
+# Nested module syntax is fine
+Style/ClassAndModuleChildren:
+  Enabled: false
